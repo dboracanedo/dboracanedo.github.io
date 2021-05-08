@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Interdisciplinar</title>
+    
+<!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<!--CSS-->
+    <link rel="stylesheet" href="css/style.css">  
+
+<!--Scrips-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+<!--FontAwesome-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+<!--Progress Bar-->
+    <script src="JavaScript/progressbar.mim.js"></script>
+
+<!--Parallax-->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+<!--Fontes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!--Navbar-->
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+                <a href="#" class="navbar-brand">
+                    <img id="logo" src="Img/semfundo.jpg" alt="OfficeTrackSolution"> OfficeTrack Solution
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" 
+                aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggle-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu" href="#atas">Atas</a>
+                        <a class="nav-item nav-link" id="about-menu" href="#about-area">Quem somos</a>
+                        <a class="nav-item nav-link" id="service-menu" href="#service-area">Serviços</a>
+                        <a class="nav-item nav-link" id="portfolio-menu" href="#team-area">Nossa Equipe</a>
+                        <a class="nav-item nav-link" id="contact-menu" href="#contatos">Contatos</a>
+                        <a class="nav-item nav-link" id="contact-menu" href="#"></a> 
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+<!--Carousel-->
+    <main>
+        <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" 
+              aria-current="true" aria-label="Slide 1"></button>
+
+              <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </ol>
+        <div class="container-fluid">
+
+<!--Imagens Carousel-->
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="Img/imagem_a_direita.png"  class="d-block w-100" alt="carousel1">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-md-block text-start">
+                        <h2>Nossos Serviços</h1>
+                        <p>Estamos entre os Top 10 Rangings, como empresa inovadora e como diferencial no serviço prestado.</p>
+                        <a href="#service-area" class="main-btn">Clique aqui</a>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="carousel-item">
+                    <img src="Img/centro.png" class="d-block w-100" alt="carousel1"></svg>
+                    <div class="container">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h2>Quem somos.</h1>
+                        <p>Conheça a nossa equipe, e veja os seus trabalhos.</p>
+                        <a class="main-btn" href="#team-area">Clique aqui</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="Img/imagem_a_esquerda.png" class="d-block w-100" alt="carousel1"></svg>
+
+                    <div class="container">
+                        <div class="carousel-caption d-none d-md-block text-end">
+                        <h2>Contatos.</h1>
+                        <p>Veja o departamento e entre em contato com o responsável por ele.</p>
+                        <a class="main-btn" href="#contatos">Clique aqui</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+<!--Sobre a Empresa-->
+
+                <div id="about-area">
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="main-title pb-2 border-bottom">Sobre a OfficeTrack Solution</h3>
+                            </div>
+
+<!--Video Sobre a Empresa-->
+                            <div class="col-md-6">
+                                <video class="bd-placeholder-img rounded-circle" width="350" height="350" autoplay loop muted>
+                                <source src="Img/officeTrack.preto.mp4" type="video/mp4" />
+                                </video>
+                            </div>
+
+                            <div class="col-md-6">
+                                <h3 class="about-title">Uma empresa que pensa no futuro</h3>
+                                <p></p>
+              
+                              <ul id="about-list">
+                                <li><i class="fa fa-check" aria-hidden="true"></i>Com uma inteligência diferenciada do Mercado de Trabalho</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i>Flexível com suas entregas e projetos</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i>Trazendo uma inovação ainda não vista</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i>Solidez em segurança de dados</li>
+                                <li><i class="fa fa-check" aria-hidden="true"></i>CRM e experiência do cliente</li>
+                              </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!--Serviços-->
+
+                <div id="service-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="main-title pb-2 border-bottom">Nossos Serviços</h3>
+                            </div>
+
+                            <div class="col-md-6 service-box">
+                                <i class="fa fa-clock-o fa-3x" aria-hidden="true"></i>
+                                <h4>Serviços de Negócio</h4>
+                                <p>Gerenciamos o risco e damos os suportes necessários à continuidade durante o tempo incerto
+                                    para ajudar sua empresa a voltar ao mercado.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 service-box">
+                                <i class="fa fa-lightbulb-o fa-3x" aria-hidden="true"></i>
+                                <h4>Soluções Inovadoras</h4>
+                                <p>Visualize um futuro grandioso e dê vida aos seus conceitos com inovações, construídas para fornecer
+                                    experiências hiper-personalizadas, alinhadas com as suas necessidades de negócio e fornceder resultados
+                                    que podem ser dimensionados em toda a sua organização.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 service-box">
+                                <i class="fa fa-building fa-3x" aria-hidden="true"></i>
+                                <h4>Serviços de consultoria</h4>
+                                <p>Descubra e projete novas oportunidades de negócios e transforme sua empresa em um empreendimento
+                                    inteligente.
+                                </p>
+                            </div>
+
+                            <div class="col-md-6 service-box">
+                                <i class="fa fa-bolt fa-3x" aria-hidden="true"></i>
+                                <h4>Serviços de Implementação</h4>
+                                <p>Nossos serviços de implementação ponta a ponta, ajudam a projetar, implantar e adotar soluções com mais
+                                    rapidez e menor risco.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!--Dados da empresa-->
+                
+            <h3 class="main-title">Projetos</h3>
+                <div id="data-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 circle-box">
+                                <div id="circleA"></div>
+                                <p>Desenvolvimento do Site</p>
+                            </div>
+
+                            <div class="col-md-3 circle-box">
+                                <div id="circleB"></div>
+                                <p>Divisão de tarefas</p>
+                            </div>
+
+                            <div class="col-md-3 circle-box">
+                                <div id="circleC"></div>
+                                <p>Devolutiva ATAS</p>
+                            </div>
+
+                            <div class="col-md-3 circle-box">
+                                <div id="circleD"></div>
+                                <p>Visão Geral Projeto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!--Time-->
+
+                <div id="team-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="main-title pb-2 border-bottom">Nossa Equipe</h3>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <img src="img/a.bruno.jpg" class="card-img-top" alt="Bruno" width="164px" height="164px">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bruno de Oliveira</h5>
+                                        <p class="card-text">Marketing & Vendas</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <img src="img/a.debora.jpg" class="card-img-top" alt="Debora">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Débora Canedo</h5>
+                                        <p class="card-text">Software Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <img src="img/a.giovanna.jpg" class="card-img-top" alt="Giovanna" width="164px" height="164px">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Giovanna Marcari</h5>
+                                        <p class="card-text">Marketing & Vendas</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <img src="img/a.johnn.jpg" class="card-img-top" alt="Johnn" width="164px" height="164px">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Johnn Menezes</h5>
+                                        <p class="card-text">Recursos Humanos</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <img src="img/a.matheus.jpg" class="card-img-top" alt="Matheus" width="164px" height="164px">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Matheus Sousa</h5>
+                                        <p class="card-text">Financeiro</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="card">
+                                    <img src="img/a.paloma.jpg" class="card-img-top" alt="Paloma" width="164px" height="164px">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Paloma Andrade</h5>
+                                        <p class="card-text">Recursos Humanos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!--Ata-->
+
+<div id="atas">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="main-title pb-2 border-bottom">Atas</h3>
+            </div>
+
+            <div class="col-md-12">
+                <h3 class="about-title text-center">Primeira ata do cliente</h3>
+                <p></p>
+
+              <ul id="about-list">
+                <li><i class="fa fa-check" aria-hidden="true"></i>Necessidade de escolha de algum dos processos para montagem do fluxograma / encadeamento.</li>
+                <li><i class="fa fa-check" aria-hidden="true"></i>Detalhar melhor apenas um processo de cada setor (Marketing, Financeiro e RH). </li>
+                <li><i class="fa fa-check" aria-hidden="true"></i>Montagem de cronograma com lista de tarefas a cumprir para próxima ATA.</li>
+                <li><i class="fa fa-check" aria-hidden="true"></i>Descrição detalhada da função de cada integrante do grupo.</li>
+              </ul>
+            </div>
+
+            <!--<div class="col-md-12">
+                <h3 class="about-title text-center">Segunda ata do cliente</h3>
+                <p></p>
+
+              <ul id="about-list">
+                <li><i class="fa fa-check" aria-hidden="true"></i></li>
+                <li><i class="fa fa-check" aria-hidden="true"></i></li>
+                <li><i class="fa fa-check" aria-hidden="true"></i></li>
+                <li><i class="fa fa-check" aria-hidden="true"></i></li>
+                <li><i class="fa fa-check" aria-hidden="true"></i></li>
+              </ul>
+            </div>
+
+            <div class="col-md-12">
+                <h3 class="about-title text-center">Terceira ata do cliente</h3>
+                <p></p>
+
+              <ul id="about-list">
+                <li><i class="fa fa-check" aria-hidden="true"></i></li>
+                <li><i class="fa fa-check" aria-hidden="true"></i></li>
+                <li><i class="fa fa-check" aria-hidden="true"></i></li>
+                <li><i class="fa fa-check" aria-hidden="true"></i></li>
+                <li><i class="fa fa-check" aria-hidden="true"></i></li>
+              </ul>
+            </div>-->
+        </div>
+    </div>
+</div>  
+
+
+<!--Contatos-->
+
+<div id="contatos">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="main-title pb-2 border-bottom"><i class="fa fa-volume-control-phone fa-lg" aria-hidden="true"></i>   Contatos</h3>
+            </div>
+
+                            <div class="col-md-2 text-center">
+                                <h4>Bruno</h4>
+                                <p>Responsável pelo departamento de Marketing & Vendas. Esse é o cara ideal para tirar suas dúvidas sobre o
+                                    Marketing da nossa empresa, e também, está preparado para auxiliar nos casos de Vendas.
+                                </p>
+                            </div>
+
+                            <div class="col-md-2 text-center">
+                                <h4>Débora</h4>
+                                <p>Responsável pelo departamento de Desenvolvimento de Softwares. Essa é a garota da programação,
+                                    preparada para qualquer projeto, e também para ajudar nas análises do departamento Financeiro.
+                                </p>
+                            </div>
+
+                            <div class="col-md-2 text-center">
+                                <h4>Giovanna</h4>
+                                <p>Responsável pelo departamento de Marketing & Vendas. Essa é a nossa garota de Vendas, não tem
+                                    pessoal melhor que ela. Também preparada para atender Marketing.
+                                </p>
+                            </div>
+
+                            <div class="col-md-2 text-center">
+                                <h4>Johnn</h4>
+                                <p>Responsável pelo departamento de Recursos Humanos. Esse menino é fera, preparado para ajudar com 
+                                    ..., e também preparado para auxiliar em ...
+                                </p>
+                            </div>
+
+                            <div class="col-md-2 text-center">
+                                <h4>Matheus</h4>
+                                <p>Responsável pelo departamento Financeiro. Esse garoto é o cara das contas e das soluções. 
+                                    Além disso, também está preparado para auxiliar no Desenvolvimento de Software.
+                                </p>
+                            </div>
+
+                            <div class="col-md-2 text-center">
+                                <h4>Paloma</h4>
+                                <p>Responsável pelo departamento de Recursos Humanos. Essa nossa menina é especialista na área, 
+                                ..., e também preparado para auxiliar em ...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+<!--JavaScript-->
+    <script src="JavaScript/script.js"></script>
+
+</body>
+</html> 
