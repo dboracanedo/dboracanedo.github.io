@@ -29,7 +29,7 @@ Para o desenvolvimento desse projeto foi realizado:
 
 ---
 
-Acesse o site : <a href="https://https://dboracanedo.github.io/" target="_blank">Projeto Interdisciplinar</a>
+Acesse o site : <a href="https://dboracanedo.github.io/" target="_blank">Projeto Interdisciplinar</a>
 
 ---
 
